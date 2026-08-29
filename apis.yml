@@ -1,7 +1,20 @@
 aid: spark-neuro
 name: SPARK Neuro
-description: 'SPARK Neuro is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  SPARK Neuro is a New York City neuroscience company that quantifies brain data with EEG
+  and machine learning, for both clinical care and commercial audience measurement. Its
+  clinical arm, SPARK Medical, pairs FDA-cleared EEG hardware with deep-learning models to
+  produce objective biomarkers for Alzheimer's disease, traumatic brain injury and
+  concussion, Parkinson's disease, ALS, and mental-health conditions, and ships a
+  push-button test-and-report software platform aimed at clinicians, researchers and
+  pharmaceutical trial operations. Its commercial arm, Spark MEDIA, applies the same
+  biometric measurement to advertising and entertainment, reading emotional and attentional
+  response to content. A third product, Spark Predict, is a conversational analytics
+  interface over the company's healthcare claims intelligence engine, marketed to payers and
+  providers. The company was founded by CEO Spencer Gerrol and has raised more than $35M.
+  SPARK Neuro publishes no public developer program, API reference, or machine-readable
+  contract; its software reaches customers as a delivered product rather than as an API.
+image: https://sparkneuro.com/wp-content/uploads/2024/02/cropped-SPARKNEURO-RGB-Color-black-text.png
 url: https://raw.githubusercontent.com/api-evangelist/spark-neuro/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +25,15 @@ created: '2026-08-28'
 modified: '2026-08-28'
 tags:
 - Company
+- Neuroscience
+- Neurotechnology
+- Health Care
+- Medical Devices
+- EEG
+- Artificial Intelligence
+- Diagnostics
+- Clinical Trials
+- Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,50 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spark-neuro-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://sparkneuro.com/
+- type: About
+  url: https://sparkneuro.com/about/
+- type: Support
+  url: https://sparkneuro.com/contact/
+- type: PrivacyPolicy
+  url: https://sparkneuro.com/privacy-policy/
+- type: TermsOfService
+  url: https://sparkneuro.com/terms-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/spark-neuro
+- type: LLMsTxt
+  url: llms/spark-neuro-llms.txt
+- type: Plans
+  url: plans/spark-neuro-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/spark-neuro-rate-limits.yml
+x-enrichment:
+  date: '2026-08-28'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    SPARK Neuro sells EEG-plus-AI diagnostics and neuro-analytics as a delivered enterprise
+    product with no developer-facing side at all — sparkneuro.com is a nine-page WordPress
+    site whose /developers, /api and /docs paths 404, sparkpredict.ai is a static landing
+    page whose only interactive element is a Formspree demo form, and the one API-named host
+    the company owns, api.sparkneuro.com, resolves in DNS but answers 502 Bad Gateway on
+    every path.
+  evidence:
+  - url: https://sparkneuro.com/developers
+    status: 404
+  - url: https://sparkneuro.com/openapi.json
+    status: 404
+  - url: https://api.sparkneuro.com/
+    status: 502
+  - url: https://sparkpredict.ai/openapi.json
+    status: 404
+  - url: https://sparkneuro.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-28'

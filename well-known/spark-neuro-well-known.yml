@@ -1,0 +1,98 @@
+generated: '2026-08-28'
+method: probed
+source: >-
+  Direct unauthenticated HTTPS probes of /.well-known/* on every SPARK Neuro host reachable
+  from the public web (2026-08-28).
+note: >-
+  Every path 404s on every host, so NO WellKnown or SecurityTxt pointer is emitted in
+  apis.yml — this file records a verified absence, not a served surface. api.sparkneuro.com
+  resolves in DNS but its origin answers 502 Bad Gateway on every path, so nothing could be
+  read there; that is recorded as an unreachable host rather than as a 404.
+hosts:
+- host: sparkneuro.com
+  role: corporate website (WordPress)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: medical.sparkneuro.com
+  role: SPARK Medical product site (WordPress)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: media.sparkneuro.com
+  role: Spark MEDIA product site (WordPress)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: sparkpredict.ai
+  role: Spark Predict marketing landing page (static, Tailwind CDN + Formspree)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: api.sparkneuro.com
+  role: unreachable API-named host (DNS resolves, origin returns 502 on every path)
+  documents:
+  - path: /.well-known/security.txt
+    status: 502
+  - path: /.well-known/openid-configuration
+    status: 502
+  - path: /.well-known/oauth-authorization-server
+    status: 502
+  - path: /.well-known/api-catalog
+    status: 502
+  - path: /.well-known/ai-plugin.json
+    status: 502
+  - path: /.well-known/agent-card.json
+    status: 502
+  - path: /.well-known/agent.json
+    status: 502

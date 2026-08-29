@@ -1,0 +1,21 @@
+generated: '2026-08-28'
+method: searched
+source: >-
+  Contract discovery across every SPARK Neuro host (sparkneuro.com, medical.sparkneuro.com,
+  media.sparkneuro.com, sparkpredict.ai, api.sparkneuro.com) — 2026-08-28.
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limits are documented because there is no public API to limit. SPARK Neuro
+  publishes no developer portal, API reference, or machine-readable contract, so there are
+  no published quotas, windows, burst allowances, RateLimit-*/X-RateLimit-* response
+  headers, or documented 429 behavior to record. This is an honest zero on a provider with
+  no public request surface, not an unchecked field.
+evidence:
+- url: https://sparkneuro.com/developers
+  status: 404
+- url: https://sparkneuro.com/api
+  status: 404
+- url: https://api.sparkneuro.com/
+  status: 502

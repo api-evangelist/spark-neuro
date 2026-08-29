@@ -1,0 +1,28 @@
+generated: '2026-08-28'
+method: searched
+source: >-
+  https://sparkneuro.com/ sitemap walk (9 pages: /, /about/, /science/, /contact/,
+  /white-papers/, /learn-more/, /remindv-study/, /privacy-policy/, /terms-conditions/),
+  plus https://medical.sparkneuro.com/, https://media.sparkneuro.com/ and
+  https://sparkpredict.ai/ — 2026-08-28.
+plan_count: 0
+plans: []
+note: >-
+  SPARK Neuro publishes no pricing, plans, tiers, or rate card on any of its public
+  properties. There is no /pricing page in the sparkneuro.com sitemap and none of the three
+  product sites (SPARK Medical, Spark MEDIA, Spark Predict) names a price, a unit of
+  billing, or a self-serve purchase path. Every commercial route is a contact form:
+  sparkneuro.com/contact/ and sparkneuro.com/learn-more/ on the corporate site, and a
+  Formspree-backed "request a demo" form on sparkpredict.ai. This is an enterprise
+  sales-led motion (clinical, pharmaceutical and brand/agency buyers), not a published
+  price list — recorded as an honest zero, not as an unchecked field.
+evidence:
+- url: https://sparkneuro.com/sitemap.xml
+  status: 200
+  finding: nine URLs total, no pricing or plans page
+- url: https://sparkneuro.com/contact/
+  status: 200
+  finding: contact form is the only commercial path
+- url: https://sparkpredict.ai/
+  status: 200
+  finding: Formspree demo-request form, no price stated

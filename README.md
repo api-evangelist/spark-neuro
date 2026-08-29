@@ -64,5 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SPARK Neuro is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+SPARK Neuro is a New York City neuroscience company that quantifies brain data with EEG and machine
+learning, for both clinical care and commercial audience measurement. Its clinical arm, SPARK
+Medical, pairs FDA-cleared EEG hardware with deep-learning models to produce objective biomarkers
+for Alzheimer's disease, traumatic brain injury and concussion, Parkinson's disease, ALS, and
+mental-health conditions. Its commercial arm, Spark MEDIA, applies the same biometric measurement to
+advertising and entertainment. A third product, Spark Predict, is a conversational analytics
+interface over the company's healthcare claims intelligence engine.
+
+**No public API surface.** As of 2026-08-28 SPARK Neuro publishes no developer portal, API
+reference, SDK, or machine-readable contract on any of its hosts. See `llms/spark-neuro-llms.txt`
+for the full probe record and `apis.yml` `x-coverage` for the recorded reason.
+
+- https://sparkneuro.com/
+- https://medical.sparkneuro.com/
+- https://media.sparkneuro.com/
+- https://sparkpredict.ai/
