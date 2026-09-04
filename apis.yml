@@ -14,6 +14,19 @@ description: >-
   providers. The company was founded by CEO Spencer Gerrol and has raised more than $35M.
   SPARK Neuro publishes no public developer program, API reference, or machine-readable
   contract; its software reaches customers as a delivered product rather than as an API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - rate-limits
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://sparkneuro.com/wp-content/uploads/2024/02/cropped-SPARKNEURO-RGB-Color-black-text.png
 url: https://raw.githubusercontent.com/api-evangelist/spark-neuro/refs/heads/main/apis.yml
 x-type: company
