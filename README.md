@@ -64,19 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SPARK Neuro is a New York City neuroscience company that quantifies brain data with EEG and machine
-learning, for both clinical care and commercial audience measurement. Its clinical arm, SPARK
-Medical, pairs FDA-cleared EEG hardware with deep-learning models to produce objective biomarkers
-for Alzheimer's disease, traumatic brain injury and concussion, Parkinson's disease, ALS, and
-mental-health conditions. Its commercial arm, Spark MEDIA, applies the same biometric measurement to
-advertising and entertainment. A third product, Spark Predict, is a conversational analytics
-interface over the company's healthcare claims intelligence engine.
+SPARK Neuro is a New York City neuroscience company that quantifies brain data with EEG and machine learning, for both clinical care and commercial audience measurement. Its clinical arm, SPARK Medical, pairs FDA-cleared EEG hardware with deep-learning models to produce objective biomarkers for Alzheimer's disease, traumatic brain injury and concussion, Parkinson's disease, ALS, and mental-health conditions, and ships a push-button test-and-report software platform aimed at clinicians, researchers and pharmaceutical trial operations. Its commercial arm, Spark MEDIA, applies the same biometric measurement to advertising and entertainment, reading emotional and attentional response to content. A third product, Spark Predict, is a conversational analytics interface over the company's healthcare claims intelligence engine, marketed to payers and providers. The company was founded by CEO Spencer Gerrol and has raised more than $35M. SPARK Neuro publishes no public developer program, API reference, or machine-readable contract; its software reaches customers as a delivered product rather than as an API.
 
-**No public API surface.** As of 2026-08-28 SPARK Neuro publishes no developer portal, API
-reference, SDK, or machine-readable contract on any of its hosts. See `llms/spark-neuro-llms.txt`
-for the full probe record and `apis.yml` `x-coverage` for the recorded reason.
+**Areas:** Company · Neuroscience · Neurotechnology · Healthcare · Medical Devices · EEG · Artificial Intelligence · Diagnostics · Clinical Trials · Advertising
 
-- https://sparkneuro.com/
-- https://medical.sparkneuro.com/
-- https://media.sparkneuro.com/
-- https://sparkpredict.ai/
+## SPARK Neuro on APIs.io
+
+Everything profiled for SPARK Neuro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/spark-neuro/](https://apis.io/providers/spark-neuro/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Spark Neuro Domain Security](https://apis.io/security/spark-neuro/spark-neuro-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Spark Neuro Plans Pricing](https://apis.io/plans/spark-neuro/spark-neuro-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Spark Neuro Rate Limits](https://apis.io/rate-limits/spark-neuro/spark-neuro-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sparkneuro.com/)
+- [Support](https://sparkneuro.com/contact/)
+- [Terms of service](https://sparkneuro.com/terms-conditions/)
+- [Privacy policy](https://sparkneuro.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 10.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/spark-neuro/](https://apis.io/providers/spark-neuro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SPARK Neuro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/spark-neuro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
